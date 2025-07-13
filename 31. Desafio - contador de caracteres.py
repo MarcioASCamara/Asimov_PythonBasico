@@ -14,7 +14,6 @@ O nome Python teve a sua origem no grupo humorístico britânico Monty Python,[8
 """
 vogais = {
     'A': 0,
-    'B': 0,
     'E': 0,
     'I': 0,
     'O': 0,
@@ -24,8 +23,6 @@ vogais = {
 for caractere in texto:
     if caractere.upper() == 'A':
         vogais['A'] += 1
-    if caractere.upper() == 'B':
-        vogais['B'] += 1
     if caractere.upper() == 'E':
         vogais['E'] += 1
     if caractere.upper() == 'I':
